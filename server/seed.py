@@ -8,15 +8,13 @@ with app.app_context():
     Plant.query.delete()
 
     aloe = Plant(
-        id=1,
-        name="Aloe",
+        plant_name="Aloe",
         image="./images/aloe.jpg",
         price=11.50,
     )
 
     zz_plant = Plant(
-        id=2,
-        name="ZZ Plant",
+        plant_name="ZZ Plant",
         image="./images/zz-plant.jpg",
         price=25.98,
     )
